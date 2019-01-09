@@ -153,3 +153,6 @@ Example: Word Counting in Document
     * MapReduce easily runs alongside other services with minor performance differences.
 * Ease of Use : **Spark is easier to program** (higher level APIs).
 * Data processing: **Spark more general**
+
+
+Exmaple: large web cor
