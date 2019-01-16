@@ -50,9 +50,7 @@ JDK 8 Update 192.pkg (Pkg)
 Brew is Mac OS Package Manager, similar to `apt` (http://brew.sh/)
 
 ```shell
-brew update 
-brew install scala
-brew install apache-spark
+brew update && brew install scala apache-spark
 ```
 
 ## 3. Setup Variables
@@ -73,6 +71,9 @@ fi
 
 * Install Python Env through `pyenv`, a python versioning manager.
 ```bash
+# Install pyenv (optional)
+brew install pyenv
+
 pyenv install 3.6.7 
 
 # Set Python 3.6.7 as main python interpreter
