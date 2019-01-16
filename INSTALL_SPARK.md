@@ -4,8 +4,9 @@ Reference:
 https://spark.apache.org/docs/latest/
 
 
-## Overview:
-* Install Java 8+, then add to `PATH` and `JAVA_HOME`
+## Summary:
+
+How to setup Spark and integrate Jupyter Notebook with Spark using [Apache Toree](https://toree.apache.org/). The goal is to allow developers write Scala/Python to talk to Spark through Jupyter Notebook.
 
 
 ## 1. Install Java.
