@@ -57,7 +57,7 @@ brew install apache-spark
 
 ## 3. Setup Variables
 
-* Assump Current spark version == `2.4.0`.
+* Assume Current spark version == `2.4.0`.
 ```bash
 # For a ipython notebook and pyspark integration
 if which pyspark > /dev/null; then
@@ -84,7 +84,7 @@ source ~/.zshrc
 # Update pip from 10.01 to 18.1
 pip install --upgrade pip
 ```
-* (Optional) If you received `pyspark 2.4.0 requires py4j==0.10.7, which is not installed.`, fixed by:
+* (Optional) If you receive error message: `pyspark 2.4.0 requires py4j==0.10.7, which is not installed.`, fix by:
 ```
 pip install py4j==0.10.7
 ```
@@ -117,5 +117,4 @@ jupyter kernelspec list
 jupyter notebook
 ```
 * Remember to Select Toree as your main kernel
-
 ![](docs/setup_result.png)
